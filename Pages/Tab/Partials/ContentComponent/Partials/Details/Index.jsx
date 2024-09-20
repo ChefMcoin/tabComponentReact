@@ -82,7 +82,7 @@ export default function Details() {
         </Button>
       </div>
       {eachTab.map(tab => {
-        return activeTab === tab.id && <h1>{tab.content}</h1>;
+        return activeTab === tab.id && <h1 key={tab.id}>{tab.content}</h1>;
       })}
     </>
   );

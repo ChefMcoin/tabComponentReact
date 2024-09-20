@@ -3,9 +3,6 @@ import { useTabs } from '../../../../ContextApi/TabProvider';
 import ContentComponent from '../ContentComponent/Index';
 
 const TabContent = ({ activeTab }) => {
-  // const activeTab = useTabs();
-  // const { activeTab } = useTabs(); // Get activeTab from context
-  console.log('active tab:', activeTab);
   const tabContent = [
     {
       id: 'Tab 1',
